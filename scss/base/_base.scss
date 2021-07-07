@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  @include mq('tab') {
+    font-size: 1.4rem;
+  }
+  @include mq('sp') {
+    font-size: 1.2rem;
+  }
+}

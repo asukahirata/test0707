@@ -1,0 +1,16 @@
+.title {
+    width: 400px;
+    text-align: center;
+    margin: 4rem auto;
+
+  span {
+    display: block;
+    text-align: center;
+  }
+}
+.activity__inner {
+  @include inner;
+}
+.swiper-slide {
+  //width: 20%!important;
+}
